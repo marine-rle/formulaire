@@ -156,7 +156,9 @@ DB_PASSWORD=secret
  ``vagrant reload --provision `` ->
   ``vagrant ssh`` ->
   ``cd code/formulaire`` ->
-  ``artisan migrate``
+  ``artisan migrate`` ->
+  ``composer dump-autoload`` ->
+  ``php artisan migrate:rollback``
 
 ### Lancer le formulaire
 Ouvir un navigateur et taper dans la barre de recherche : ``formulaire.test/``
