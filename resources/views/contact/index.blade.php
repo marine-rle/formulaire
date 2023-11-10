@@ -31,9 +31,13 @@
 
 <body>
 
+
+    <!-- Page title -->
     <title>Formulaire</title>
 
     <div class="row">
+
+        <!-- Contact form -->
         <div class="bg-white">
             <form action="{{ route('contact.store') }}" method="post">
 
@@ -61,6 +65,7 @@
             </form>
         </div>
 
+        <!-- Contact table -->
         <div class="bg-white">
             <table>
                 <tr>
