@@ -64,10 +64,11 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-<br><br><br>
-# Formulaire Test
 
-## Installation
+<br><br><br>
+## Formulaire Test
+
+### Installation
 Installer Laravel en Homestead. Créer un fichier code dans le dossier Homestead. Télécharger le code et le placer dans Homestead/code/
 
 - Modifier le fichier C:\Windows\System32\drivers\etc\hosts
@@ -157,6 +158,7 @@ DB_PASSWORD=secret
   ``cd code/formulaire`` ->
   ``artisan migrate``
 
-- Ouvir un navigateur et taper dans la barre de recherche : ``formulaire.test/``
+### Lancer le formulaire
+Ouvir un navigateur et taper dans la barre de recherche : ``formulaire.test/``
 
 
