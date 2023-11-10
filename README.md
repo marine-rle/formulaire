@@ -157,5 +157,6 @@ DB_PASSWORD=secret
   ``cd code/formulaire`` ->
   ``artisan migrate``
 
+- Ouvir un navigateur et taper dans la barre de recherche : ``formulaire.test/``
 
 
