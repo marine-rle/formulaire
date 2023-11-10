@@ -41,12 +41,12 @@
 
                 <div>
                     <label for="name">{{ __('Nom et prénom')}}</label><br>
-                    <input type="text" name="name" id="name" required minlength="2" maxlength="50" style="width: 100%;">
+                    <input type="text" name="name" id="name" required minlength="2" maxlength="50" style="width: 100%;"placeholder="Davis Sophie">
                 </div><br>
 
                 <div>
                     <label for="email">{{ __('Adresse email')}}</label><br>
-                    <input type="email" name="email" id="email" required minlength="6" maxlength="60"  style="width: 100%;">
+                    <input type="email" name="email" id="email" required minlength="6" maxlength="60"  style="width: 100%;" placeholder="sophie@example.com">
                 </div><br>
 
                 <div>
