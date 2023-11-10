@@ -158,7 +158,7 @@ DB_PASSWORD=secret
   ``cd code/formulaire`` ->
   ``artisan migrate`` ->
   ``composer dump-autoload`` ->
-  ``php artisan migrate:rollback``
+  ``php artisan db:seed --class=ContactSeeder``
 
 ### Lancer le formulaire
 Ouvir un navigateur et taper dans la barre de recherche : ``formulaire.test/``
